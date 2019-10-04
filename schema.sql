@@ -1,0 +1,9 @@
+DROP DATABASE IF EXISTS greatbae;
+CREATE DATABASE greatbae;
+
+CREATE TABLE bids (
+    id INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    item_name VARCHAR(60) NOT NULL,
+    item_category VARCHAR(60) NOT NULL,
+    current_bid INTEGER NOT NULL
+);
